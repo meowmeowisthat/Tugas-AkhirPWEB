@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas</title>
+    <link rel="stylesheet" href="ini.css">
+</head>
+<body>
+    <form name="form2" method="POST" action="proses2.php" class="tugas">
+        <h1>Silahkan Masukkan Tugas</h1>
+        <div class="inputan">
+        <label for="matkul">Mata Kuliah: </label>
+        <input type="text" id="matkul" name="matkul">
+        <br><br>
+        <label for="dosen">Nama Dosen: </label>
+        <input type="text" id="dosen" name="dosen">
+        <br><br>
+        <label for="tenggat">Deadline: </label>
+        <input type="datetime-local" id="tenggat" name="tenggat">
+        <label for="jenis">Jenis: </label>
+        <select name="jenis" id="jenis">
+            <option value="Tugas">Tugas</option>
+            <option value="UK">Uji Kompetensi</option>
+            <option value="Tugas Akhir">Tugas Akhir</option>
+        </select>
+        <input type="submit" value="Simpan" class="tomb">
+    </div>
+    </form>
+</body>
+</html>

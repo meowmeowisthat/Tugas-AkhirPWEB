@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background: #854f6c;
+    height: 100%;
+}
+
+body {
+    height: 240%;
+    background-image: linear-gradient(to right, #854f6c , #2b124c);
+    color: white;
+    padding: 50px;
+    margin: 20px; 
+    border-radius: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px; 
+    box-sizing: border-box; 
+    position: relative; 
+}
+
+#header .main{
+    width: 200px;
+    height: 10px;
+    justify-content: center;
+    margin-top: 160px;
+    margin-left: 400px;
+    background: #522b5b;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 0 10px #854f6c;
+}
+
+.container {
+    padding: 10px 10%;  
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #ecd2d1;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #f08080;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    height: calc(100vh - 20px); 
+}
+
+.side-bar {
+    background: #854f6c;
+    width: 220px;
+    height: 100vh;
+    position: sticky;
+    top: 0; 
+    border-radius: 24px;
+    padding-top: 20px;
+    box-shadow: 0 0 12px #522b5b;
+}
+
+.side-bar img {
+    width: 80px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 50%;
+    border: 3px solid #522b5b;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 15px 0;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+}
+
+.main-content {
+    background: #522b5b;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 24px;
+    box-shadow: 0 0 10px #854f6c;
+    flex: 1; 
+}
+
+p{
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.matkul h1{
+    text-align: center;
+}
+
+.inputan{
+    margin-top: 100px;
+    justify-content: center;
+    display: grid;
+    border-radius: 20px;
+}
+
+.tombol{
+    height: 36px;
+    border-radius: 20px;
+}
+
+.tomb{
+    border-top: 20px;
+    height: 36px;
+    border-radius: 20px; 
+}
+
+.footer{
+    margin-top: 100px;
+    margin-left: 500px;
+    bottom: 0;
+}
